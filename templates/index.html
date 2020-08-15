@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Welcome</h1>
+    <p>Here are some Pages:</p>
+    <ul>
+        <li><p><a href="{{url_for('students')}}">Students</a></p></li>
+        <li><p><a href="{{url_for('teachers')}}">Teachers</a></p></li>
+        <li><p><a href="{{url_for('classes')}}">Classes</a></p></li>
+    </ul>
+
+{% endblock %}

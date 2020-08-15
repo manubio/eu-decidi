@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div>
+      <a href="{{url_for('index')}}">Home</a>
+      | 
+      <a href="{{url_for('students')}}">Students</a>
+      | 
+      <a href="{{url_for('teachers')}}">Teachers</a>
+      | 
+      <a href="{{url_for('classes')}}">Classes</a>
+    </div>
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
